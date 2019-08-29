@@ -1,0 +1,27 @@
+[[source]]
+name = "shopping-basket"
+url = "https://pypi.org/simple"
+verify_ssl = true
+
+[dev-packages]
+pytest = "*"
+flake8 = "*"
+bandit = "*"
+pytest-cov = "*"
+pytest-html = "*"
+pytest-mock = "*"
+cfn-lint = "*"
+botostubs = "*"
+moto = "*"
+
+[packages]
+aws-xray-sdk = "*"
+boto3 = "*"
+aws-lambda-deployment-test-utils = "*"
+botostubs = "*"
+
+[requires]
+python_version = "3.7"
+
+[scripts]
+test = "pytest . -W \"ignore::DeprecationWarning\" --cov=. --cov-fail-under 80"
