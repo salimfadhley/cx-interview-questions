@@ -28,4 +28,8 @@ Bonus questions are optional. You will not be penalized if you do not attempt th
 
 * We will read your code in order to determine if your implementation matches the requirements given in the question.
 
-* We will look at your coding style, to determine if your style is clear and easy to read.
+* We will look at your coding style, to determine if your style is clear and easy to read. 
+
+* We want to see code that is idiomatic for the language we have chosen. For example, if you have chosen to write in Python then we would expect your code to be formatted in the style of PEP8 and other conventions which are popular for that language. 
+
+* We might include a code review session in a subsequent face to face interview. This session will take approximately one hour. You might be asked to justify technical choices and make small changes to your code.
