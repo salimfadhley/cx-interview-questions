@@ -2,13 +2,13 @@
 
 ## Requirements
 
-You are implementing a simple "shopping basket" for a supermarket. 
+You have been asked to implement a "shopping basket pricer" for a supermarket. 
 
-This is an important component of a shopping system. This component's responsibility is to calculate the correct final price of the items contained in the basket.
+This is a component which given a "basket" of products chosen by a customer, a "catalogue" of products available in a supermarket and a number of special offers on products will calculate the discounted price of the basket.
 
-For any given basket, your solution should return the sub-total, discount and total, all accurate to two decimal places.
+This is an important component of a shopping system. This component's responsibility is to calculate the correct final price of the items contained in the basket. You must design this component in such a way that it could be used by other developers. 
 
-
+For any given basket, catalogue and offers your solution should return the sub-total, discount and total, all accurate to two decimal places. 
 
 ### Definitions
 
@@ -20,7 +20,9 @@ For any given basket, your solution should return the sub-total, discount and to
 
 ### Behavior
 
-* A basket can contain zero or more products.
+* A basket can contain zero or more products. 
+* An empty basket has a price of zero. 
+* Baskets cannot have a negative price.
 * The discount and therefore the total price is determined by the contents of the basket, the undiscounted price of the goods and the applicable offers.  
 * As with all supermarkets, the prices of goods and the offers applicable to those goods may change from day to day.
 
@@ -91,7 +93,7 @@ For example:
 * "Buy any 3 of Shampoo (Small), Shampoo (Medium) and Shampoo (Large), and you get the cheapest one for free.
 * Shampoo Medium is 50% off
 
-Make any changes to the shopping basket such that all rules are sensibly applied. 
+Make any changes to the shopping basket such that all rules are consistently applied
 
 ## Bonus Question 3
 
